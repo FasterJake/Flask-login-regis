@@ -1,0 +1,93 @@
+/*changes the background color of the body and the font*/
+body{
+    background: url("destiny.jpg") no-repeat center;
+    background-size: contain;
+    font-family: Jokerman;
+}
+/* Changes color of heading 1 */
+h1 {
+    color: red;
+}
+
+/* Changes font of ordered list */
+ol{
+    font-family: "Corbel Light";
+}
+
+/* Changes font style of unordered lists */
+ul{
+    font-family: "Blackadder ITC";
+}
+
+/* Changes color of heading 2 */
+h2{
+    color: blueviolet;
+}
+
+/* Changes color of heading 3 */
+h3{
+    color: deeppink;
+}
+
+/* Changes color of the a tag for hyper reference to links
+ and underlines the links*/
+a{
+    color: chartreuse;
+    text-decoration: underline;
+
+}
+
+/* Changes the font style and color of
+ paragraph tags*/
+p{
+    font-style: italic;
+    color: navy;
+}
+
+/* Changes color and font style of all list items */
+li{
+    font-style: oblique;
+    color: chocolate;
+}
+
+.zelda{
+    width: 160px;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.warcraft{
+    width: 160px;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.xbox{
+    width: 110px;
+    float: left;
+    margin-right: 15px;
+}
+
+table{
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+th{
+    position: relative;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+td{
+    position: relative;
+    padding: 10px;
+    border: 1px solid black;
+}
+
